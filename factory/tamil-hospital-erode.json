@@ -1,0 +1,16 @@
+{
+	"name": "tamil-hospital-erode",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "db0b55ce-9f79-4195-b5ff-dfba4ed20163",
+		"tenantId": "e2f6a8d0-6a97-47ee-b7fa-3396ae1180b2"
+	}
+}
