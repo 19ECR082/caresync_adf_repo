@@ -1,0 +1,23 @@
+{
+	"name": "LS_AzureSqlDatabase",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "tamilhospitalerode.database.windows.net",
+			"database": "free-sql-db-9323984",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sql-admin",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_azurekeyvault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "azure-sql-password"
+			}
+		}
+	}
+}
