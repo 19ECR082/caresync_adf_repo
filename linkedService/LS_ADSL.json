@@ -1,0 +1,10 @@
+{
+	"name": "LS_ADSL",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://tamilhospitalerode.dfs.core.windows.net/"
+		}
+	}
+}
