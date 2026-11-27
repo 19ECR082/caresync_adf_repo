@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "tamil-hospital-erode"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "1125-100207-frm7y2k7"
+		},
+		"LS_ADSL_properties_typeProperties_url": {
+			"value": "https://tamilhospitalerode.dfs.core.windows.net/"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "tamilhospitalerode.database.windows.net"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "free-sql-db-9323984"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "sql-admin"
+		},
+		"LS_azurekeyvault_properties_typeProperties_baseUrl": {
+			"value": "https://tamilhospitalerode.vault.azure.net/"
+		},
+		"LS_postgresql_properties_typeProperties_server": {
+			"value": "ep-floral-fire-bicyicbu-pooler.c-5.ap-southeast-1.aws.neon.tech"
+		},
+		"LS_postgresql_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"LS_postgresql_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		}
+	}
+}
